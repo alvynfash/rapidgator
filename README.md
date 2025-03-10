@@ -1,44 +1,4 @@
-#### Dart SDK for the Rapidgator service.
-
-## Features
-
-#### Login
-- login
-
-#### User
-- getUserInfo
-
-#### File
-- getFileInfo
-- copyFile
-- moveFile
-- renameFile
-- uploadFile
-- deleteFile
-- downloadFile
-- checkLinks
-- createOneTimeLink
-- getOneTimeLinkInfo
-
-#### Folder
-- createFolder
-- getFolderInfo
-- getFolderContent
-- renameFolder
-- copyFolder
-- moveFolder
-- deleteFolder
-- changeFolderMode
-
-#### Remote upload
-- createRemoteUpload
-- getRemoteUploadInfo
-- deleteRemoteUpload
-
-#### Trash can
-- getTrashCanContent
-- restoreTrashCanFiles
-- emptyTrashCan
+Dart SDK for the Rapidgator service.
 
 ## Usage
 
@@ -94,3 +54,38 @@ final trashCanContent = await api.getTrashCanContent(folderId: 'folder123');
 final emptyTrashCan = await api.emptyTrashCan(fileIds: ['file123', 'file456']);
 final restoreTrashCan = await api.restoreTrashCanFiles(fileIds: ['file123', 'file456']);
 ```
+
+## Features
+
+#### Login
+- login
+#### User
+- getUserInfo
+#### File
+- getFileInfo
+- copyFile
+- moveFile
+- renameFile
+- uploadFile
+- deleteFile
+- downloadFile
+- checkLinks
+- createOneTimeLink
+- getOneTimeLinkInfo
+#### Folder
+- createFolder
+- getFolderInfo
+- getFolderContent
+- renameFolder
+- copyFolder
+- moveFolder
+- deleteFolder
+- changeFolderMode
+#### Remote upload
+- createRemoteUpload
+- getRemoteUploadInfo
+- deleteRemoteUpload
+#### Trash can
+- getTrashCanContent
+- restoreTrashCanFiles
+- emptyTrashCan

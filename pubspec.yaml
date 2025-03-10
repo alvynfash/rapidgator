@@ -1,6 +1,6 @@
 name: rapidgator
 description: "An easy to use Rapidgator API client for Dart and Flutter."
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/alvynfash/rapidgator
 
 environment:

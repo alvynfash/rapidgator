@@ -1,3 +1,5 @@
-## 0.0.1
+## 0.0.1+1
+- Updated readme
 
-* TODO: Describe initial release.
+## 0.0.1
+- Complete rapidgator features
